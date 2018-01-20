@@ -68,6 +68,10 @@ namespace datatypes
                 Console.WriteLine(newFoodThing.GetHashCode());
             }
 
+            var hashset = new HashSet<Food>();
+            hashset.Add(new Food { Name = "Broccoli", GlutenFree = true });
+            
+
             Console.Read();
         }
     }
